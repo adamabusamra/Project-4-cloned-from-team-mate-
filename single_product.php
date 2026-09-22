@@ -40,7 +40,7 @@
                               echo "<div class=media>
                               <ul class='biolife-carousel slider-for data-slick={arrows:false,dots:false,slidesMargin:30,slidesToShow:1,slidesToScroll:1,fade:true,asNavFor:.slider-nav'}>
 
-                              <li>    <img src='../dashboard/{$row['pro_image']}'width=500 height=500> </li>
+                              <li>    <img src='{$row['pro_image']}'width=500 height=500> </li>
                            
                           </ul>";}
                                                    
@@ -355,7 +355,7 @@
                         <div class='contain-product layout-default'>
                             <div class='product-thumb'>
                                 <a href='#' class='link-to-product'>
-                                    <img src='../dashboard/{$row1['pro_image']}' alt='dd' width='270' height='270' class='product-thumnail'>
+                                    <img src='{$row1['pro_image']}' alt='dd' width='270' height='270' class='product-thumnail'>
                                 </a>
                             </div>
                             <div class='info'>

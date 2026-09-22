@@ -4,7 +4,7 @@ include('includes/admin_header.php');
 
 
 if ($_SESSION['admin_role'] != "superAdmin") {
-	header('location:index.php');
+	header('location:admin_login.php');
 }
 
 

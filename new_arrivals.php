@@ -119,7 +119,7 @@
                                     <div class='product-thumb'>
                                         <a href='single_product.php?id={$row['pro_id']}' class='link-to-product'>
                                         
-                                            <img src='../dashboard/{$row['pro_image']}' alt='dd' width='270' height='270' class='product-thumnail'>";?>
+                                            <img src='{$row['pro_image']}' alt='dd' width='270' height='270' class='product-thumnail'>";?>
                                             <?php echo "<span class=badge badge-pill badge-danger style=background-color:#ff9702 !important;>NEW!</span>";?>
                                            
                                            <?php echo"
